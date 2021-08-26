@@ -8,9 +8,9 @@ var empty = 0;
 var displayed = true;
 var notDisplayed = false;
 
-var url = 'http://todomvc.com/examples/angularjs/#/';
-var urlActive = 'http://todomvc.com/examples/angularjs/#/active';
-var urlCompleted = 'http://todomvc.com/examples/angularjs/#/completed';
+var url = 'https://todomvc.com/examples/angularjs/#/';
+var urlActive = 'https://todomvc.com/examples/angularjs/#/active';
+var urlCompleted = 'https://todomvc.com/examples/angularjs/#/completed';
 
 this.checkDisplayStatusOfAll = (selectDeselectAll,itemsLeft,allViewButton,activeViewButton,completedViewButton,clearCompletedButton) => {
     expect(toDoListHomepage.isTheToDoListEmty()).toBe(selectDeselectAll,'[001] Display status for "Select/Deselect all" button is wrong!');
